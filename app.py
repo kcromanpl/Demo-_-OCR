@@ -281,7 +281,7 @@ def main():
     """)
 
     # Main Dashboard UI
-    st.title("BOL OCR Dashboard")
+    st.title("OCR on Bill of Lading Image(BOL)")
 
     # File Selection
     selected_file = st.selectbox("Select a BOL image file:", files)
